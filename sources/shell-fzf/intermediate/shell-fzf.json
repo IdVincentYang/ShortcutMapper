@@ -1,0 +1,33 @@
+{
+    "name": "fzf Shell Command",
+    "version": "0.43.0",
+    "default_context": "Globlal Context",
+    "os": ["mac"],
+    "contexts": {
+        "Global Context": {
+            "Abort": "Ctrl+C or Ctrl+X or Ctrl+Q or Esc",
+            "Accecpt": "Enter",
+            "Backward Char": "Ctrl+B or Left",
+            "Backward Delete Char": "Ctrl+H or BackSpace",
+            "Backward Kill Word": "Opt+BackSpace",
+            "Backward Word": "Opt+B or Shift+Left",
+            "Beginning of Line": "Ctrl+A or Home",
+            "Clear Screen": "Ctrl+L",
+            "Delete Char": "Del",
+            "Delete Char/EOF": "Ctrl+D",
+            "Down": "Ctrl+J or Ctrl+N or Down",
+            "End of Line": "Ctrl+E or End",
+            "Forward Char": "Ctrl+F or Right",
+            "Forward Word": "Opt+F or Shift+Right",
+            "Kill Word": "Opt+D",
+            "Page Down": "Pgdn",
+            "Page Up": "Pgup",
+            "Preview Down": "Shift+Down",
+            "Preview Up": "Shift+Up",
+            "Unix Line Discard": "Ctrl+U",
+            "Unix Word Rubout": "Ctrl+W",
+            "Up": "Ctrl+K or Ctrl+P or Up",
+            "Yank": "Ctrl+Y"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "name" : "fzf Shell Command",
+    "version" : "0.43.0",
+    "os" : "mac",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Globlal Context",
+    "contexts" : {
+        "Global Context" : {
+            "A" : [
+                {"name":"Beginning of Line", "mods":["CONTROL"]}
+            ],
+            "B" : [
+                {"name":"Backward Char", "mods":["CONTROL"]},
+                {"name":"Backward Word", "mods":["ALT"]}
+            ],
+            "BACKSPACE" : [
+                {"name":"Backward Delete Char", "mods":[]},
+                {"name":"Backward Kill Word", "mods":["ALT"]}
+            ],
+            "C" : [
+                {"name":"Abort", "mods":["CONTROL"]}
+            ],
+            "D" : [
+                {"name":"Delete Char/EOF", "mods":["CONTROL"]},
+                {"name":"Kill Word", "mods":["ALT"]}
+            ],
+            "DELETE" : [
+                {"name":"Delete Char", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Down", "mods":[]},
+                {"name":"Preview Down", "mods":["SHIFT"]}
+            ],
+            "E" : [
+                {"name":"End of Line", "mods":["CONTROL"]}
+            ],
+            "END" : [
+                {"name":"End of Line", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"Accecpt", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Abort", "mods":[]}
+            ],
+            "F" : [
+                {"name":"Forward Char", "mods":["CONTROL"]},
+                {"name":"Forward Word", "mods":["ALT"]}
+            ],
+            "H" : [
+                {"name":"Backward Delete Char", "mods":["CONTROL"]}
+            ],
+            "HOME" : [
+                {"name":"Beginning of Line", "mods":[]}
+            ],
+            "J" : [
+                {"name":"Down", "mods":["CONTROL"]}
+            ],
+            "K" : [
+                {"name":"Up", "mods":["CONTROL"]}
+            ],
+            "L" : [
+                {"name":"Clear Screen", "mods":["CONTROL"]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Backward Char", "mods":[]},
+                {"name":"Backward Word", "mods":["SHIFT"]}
+            ],
+            "N" : [
+                {"name":"Down", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"Up", "mods":["CONTROL"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"Page Down", "mods":[]}
+            ],
+            "PAGE_UP" : [
+                {"name":"Page Up", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"Abort", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Forward Char", "mods":[]},
+                {"name":"Forward Word", "mods":["SHIFT"]}
+            ],
+            "U" : [
+                {"name":"Unix Line Discard", "mods":["CONTROL"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Preview Up", "mods":["SHIFT"]},
+                {"name":"Up", "mods":[]}
+            ],
+            "W" : [
+                {"name":"Unix Word Rubout", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"Abort", "mods":["CONTROL"]}
+            ],
+            "Y" : [
+                {"name":"Yank", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}
